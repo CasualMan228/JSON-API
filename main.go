@@ -10,5 +10,8 @@ func main() {
 	db.Connect()                                  //создаем соединение с бд
 	server := gin.Default()                       //создаем сервер
 	server.GET("/api/planes", handlers.GetPlanes) //при обращении по адресу, триггернуть обработчик
-	server.Run(":8080")                           //запуск сервера
+	server.GET("/api/types", handlers.GetTypes)
+	server.GET("/api/categories", handlers.GetCategories)
+	server.GET("/api/photos", handlers.GetPhotos)
+	server.Run(":8080") //запуск сервера
 }
