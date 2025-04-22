@@ -4,7 +4,10 @@
 
 ---
 
-### таблица Planes из БД SSMS(SQL Server Management Studio)
+### диаграмма БД SSMS(SQL Server Management Studio)
+![FIFTH](db.png)
+
+### таблица Planes из БД SSMS
 ![FIRST](tablePlanes.png)
 
 ### пример API в браузере

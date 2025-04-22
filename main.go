@@ -13,5 +13,8 @@ func main() {
 	server.GET("/api/types", handlers.GetTypes)
 	server.GET("/api/categories", handlers.GetCategories)
 	server.GET("/api/photos", handlers.GetPhotos)
+	server.GET("/api/users", handlers.GetUsers)
+	server.GET("/api/roles", handlers.GetRoles)
+	server.GET("/api/bills", handlers.GetBills)
 	server.Run(":8080") //запуск сервера
 }
